@@ -25,7 +25,7 @@
                         changeColors(pickedColors);
                     }else{
                         this.style.backgroundColor = " rgb(149, 201, 149)";
-                        message.textContent = "Try Again!, Click New colors to reset reset"
+                        message.textContent = "Try Again!, Click on the New colors Button to reset"
                         message.style.color ="red"
                     };
                 });
