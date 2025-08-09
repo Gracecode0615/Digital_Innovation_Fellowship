@@ -1,0 +1,115 @@
+.Testimonial-section {
+  padding: 20px 100px;
+  /* background-color: #f9f8f4; */
+  background-color: #fff9e0;
+  /* text-align: center; */
+  font-family: 'Arial', sans-serif;
+}
+.Testimonial-section .flex-wrap {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-title {
+  display: block;
+  color: #7a7a7a;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.title {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.title h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.arrow {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.arrow-box:hover {
+  background-color: #e9e9e9;
+}
+
+.arrow-box img {
+  width: 20px;
+  height: 20px;
+}
+
+.testimonial-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #fff9e0; */
+  border-radius: 10px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+
+.testimonial-content p {
+font-family: "  Signika", sans-serif;
+  color: #404a3d;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author span {
+  color: #555;
+  font-size: 14px;
+}
+
+.rating {
+  color: #f4c430;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .testimonial-content {
+    padding: 15px;
+  }
+}

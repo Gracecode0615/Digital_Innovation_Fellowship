@@ -1,21 +1,32 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
-import AboutSection from "../components/AboutSection";
-import Services from "../components/Services";
-import BlogPreview from "../components/BlogPreview";
-import Testimonies from "../components/Testimonies";
-import ContactForm from "../components/ContactForm";
+
+import AboutComp from "../components/AboutComp";
+import Blog from "../components/Blog";
+import Producttab from "../components/Producttab";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Products from "../components/Products";
+import Services from "../components/Services"
+import Slider from "../components/Slider";
+import Support from "../components/Support";
+import Testimonial from "../components/Testimonial";
+
 import "../App.css";
 
 const Home = () => {
     return (
         <div>
-          <HeroSection/>
-          <AboutSection/>
+          <Hero/>
+          <Support/>  
+          <Products/>
           <Services/>
-          <Testimonies/>
-          <BlogPreview/>
-          <ContactForm/>
+          <AboutComp/>
+           <Producttab/>
+          {/* <Slider/> */}
+          <Testimonial/>
+          <Blog/>
+          <Slider/>
+          <Footer/>
         </div>
     );
 };
